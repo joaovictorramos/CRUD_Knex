@@ -1,11 +1,11 @@
 import path from 'path'
 
 module.exports = {
-    client: 'mysql2',
+    client: 'pg',
     connection: {
         host : 'localhost',
-        user : 'root',
-        password : '',
+        user : 'postgres',
+        password : 'root',
         database : 'crud_knex'
     },
     migrations: {

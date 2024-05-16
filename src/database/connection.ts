@@ -1,11 +1,11 @@
 import knex from 'knex'
 
 const connection = knex({
-    client: 'mysql2',
+    client: 'pg',
     connection: {
         host : 'localhost',
-        user : 'root',
-        password : '',
+        user : 'postgres',
+        password : 'root',
         database : 'crud_knex'
     },
     useNullAsDefault: true
